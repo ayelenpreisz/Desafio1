@@ -1,0 +1,36 @@
+p{
+    font-family: Arial, Helvetica;
+    margin-left: 211px;
+    border-radius: 3%;
+    font-size: large;
+    color: black;
+}
+
+ul{
+    font-family: Arial, Helvetica;
+    margin-left: 211px;
+    border-radius: 3%;
+    font-size: large;
+    color: black;
+}
+
+
+.rojo {
+        color: red;
+      }
+      
+.azul {
+        color: blue;
+      }
+
+
+button{
+    margin-left: 211px;
+}
+
+h2{
+    margin-left: 211px;
+    font-family: Arial, Helvetica;
+    font-size: large;
+    color: orange;
+}

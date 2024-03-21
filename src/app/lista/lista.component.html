@@ -1,0 +1,23 @@
+<br>
+<button (click)="cambiarColor()">Cambiar de color los titulos</button>
+<br>
+
+<p [ngClass]="{ 'rojo': colorRojo, 'azul': colorAzul }">Lista de alumnos</p>
+
+<ul>
+    <li *ngFor="let alumno of alumnos">
+        {{ alumno.nombre }}
+    </li>
+</ul>
+
+
+<p [ngClass]="{ 'rojo': colorRojo, 'azul': colorAzul }">Lista de alumnos de Ingenieria Civil:</p>
+<ul>
+    <li *ngFor="let alumno of alumnos">
+        <span *ngIf="alumno.carrera === 'civil'">
+            {{ alumno.nombre }}
+        </span>
+    </li>
+</ul>
+
+<h2>{{fecha | date: 'dd/MM/yyyy'}}</h2>

@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { StudentsPageComponent } from './students-page/students-page.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
+import { ListaComponent } from './lista/lista.component';
 
 @NgModule({
   declarations: [
     AppComponent,
        ToolbarComponent,
     StudentsPageComponent,
-    SidenavComponent
+    SidenavComponent,
+    ListaComponent
   ],
   imports: [
     BrowserModule,
